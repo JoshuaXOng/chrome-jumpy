@@ -1,0 +1,30 @@
+{
+  "name": "chrome-jumpy",
+  "version": "0.1.0",
+  "description": "A Chrome extension that enables HTML element selection based on keyboard input.",
+  "license": "MIT",
+  "author": "joshuaxong",
+  "main": "./dist/service-worker.js",
+  "scripts": {
+    "build-dev": "webpack --config ./webpack-debug.config.js",
+    "build-prod": "webpack --config ./webpack-optimized.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.225",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.36.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  }
+}
