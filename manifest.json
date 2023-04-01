@@ -6,7 +6,7 @@
   "permissions": ["storage", "tabs", "scripting", "activeTab"],
   "host_permissions": ["http://*/", "https://*/"],
   "action": {
-    "default_icon": "assets/chrome_jumpy_icon.png",
+    "default_icon": "assets/chrome-jumpy-icon.png",
     "default_popup": "dist/index.html"
   },
   "commands": {
